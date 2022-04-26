@@ -94,4 +94,3 @@ this will install all the necessary packages that you need to run the applicatio
 >Change default shell in VSCode to [git bash](https://git-scm.com/downloads) if you're using windows and know some Linux commands. Don't know how to do it? [See here](https://stackoverflow.com/questions/44435697/vscode-change-default-terminal)
 
 I'll be adding features as I learn more.
-
