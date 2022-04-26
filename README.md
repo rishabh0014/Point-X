@@ -22,12 +22,9 @@ this will install all the necessary packages that you need to run the applicatio
 
 >I've used [dot.env](https://www.npmjs.com/package/dotenv) to store the environment variable, So you need to create a **.evn** file once you clone or download the repo.
 
-paste below code into that file
 
-```
-# if you're using MLAB replace variable with your MLAB url
-DATABASEURL = mongodb://localhost:27017/[your_database_name]
-```
+
+
 ## Application Feature
 
 * Authentication
