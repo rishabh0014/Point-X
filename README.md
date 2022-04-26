@@ -70,8 +70,6 @@ this will install all the necessary packages that you need to run the applicatio
 
 * [MongoDB](https://www.mongodb.com/)
 
-* [mLAB](https://mlab.com)
-
 * [mongoose](http://mongoosejs.com/)
 
 * [passport](http://www.passportjs.org/)
