@@ -5,7 +5,7 @@ A Node. js Web Application
 ## Demo
 >
 
-![website screenshot](https://user-images.githubusercontent.com/36589645/50891598-a3240080-1422-11e9-8865-9c3814db1b47.jpg)
+![website screenshot](https://user-images.githubusercontent.com/81413347/165338927-0d794c28-4be8-4020-9887-9587cd4c5f54.jpeg)
 
 ## Installation
 
