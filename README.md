@@ -1,4 +1,4 @@
-# Yelp Camp 
+# Point-X
 
 A Node. js Web Application
 
