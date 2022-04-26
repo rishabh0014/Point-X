@@ -1,7 +1,7 @@
 {
-  "name": "yelp-camp-abhagsain",
+  "name": "rishabh-priyank-mishal",
   "version": "1.0.0",
-  "description": "This is a project that I built while learning from Colt Steele at Udemy",
+  "description": "AWT Project",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",

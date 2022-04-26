@@ -1,4 +1,3 @@
-/* eslint-disable camelcase */
 const express = require('express');
 
 const app = express();
@@ -25,7 +24,6 @@ mongoose.connect('mongodb://127.0.0.1:27017/point-X')
         console.log(err)
     })
 app.use(connectFlash());
-// -----------------------------Express-session----------------------
 const MongoStore = require('connect-mongo')(session);
 
 app.use(
@@ -40,7 +38,6 @@ app.use(
 );
 
 app.use(methodOverride('_method'));
-// ------------------------------Passport Session--------------------
 app.use(passport.initialize());
 app.use(passport.session());
 const body_parser = require('body-parser');
@@ -49,22 +46,16 @@ app.set('view engine', 'ejs');
 app.use(express.static(`${__dirname}/public`));
 
 app.use((req, res, next) => {
-  // eslint-disable-next-line no-param-reassign
   res.locals.user = req.user;
-  // eslint-disable-next-line no-param-reassign
   res.locals.error = req.flash('error');
-  // eslint-disable-next-line no-param-reassign
   res.locals.success = req.flash('success');
-  // eslint-disable-next-line no-param-reassign
   res.locals.github = 'https://github.com/abhagsain';
   next();
 });
-// ----------------------------- Passport Config --------------------------------
 passport.use(new localStrategy(User.authenticate()));
 passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
 
-// ------------------------- Passport Config done! -----------------------------
 app.use(
   body_parser.urlencoded({
     extended: true
