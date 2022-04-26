@@ -3,9 +3,7 @@
 A Node. js Web Application
 
 ## Demo
-> See this app in action at [http://abhagsain-camping.herokuapp.com/](http://abhagsain-camping.herokuapp.com/)
-
-**I've added a demo user Hitman** on the login page, so you don't have to sign up to test the functionality.
+>
 
 ![website screenshot](https://user-images.githubusercontent.com/36589645/50891598-a3240080-1422-11e9-8865-9c3814db1b47.jpg)
 
@@ -14,18 +12,8 @@ A Node. js Web Application
 Make sure you have these things installed
 * [Node](https://nodejs.)
 * [MongoDB](https://www.mongodb.com/download-center)
-  
-  * [MLab](https://mongolab.com) (Alternative to downloading MongoDB locally)
-see the [docs](https://docs.mlab.com/)
-
-
-### You can clone or download this repository.
-
-```
-git clone https://github.com/abhagsain/yelpcamp.git
-```
-
-after that run command
+    
+run command
 
 ``` 
 npm install
@@ -109,10 +97,8 @@ DATABASEURL = mongodb://localhost:27017/[your_database_name]
 
 * [Visual Studio Code](https://code.visualstudio.com/) I'm in love with this :P
 
-* See how to use [Emmet](https://code.visualstudio.com/blogs/2017/08/07/emmet-2.0) in VSCode. This [CheatSheet](https://docs.emmet.io/cheat-sheet/) might be helpful.
 
 >Change default shell in VSCode to [git bash](https://git-scm.com/downloads) if you're using windows and know some Linux commands. Don't know how to do it? [See here](https://stackoverflow.com/questions/44435697/vscode-change-default-terminal)
 
 I'll be adding features as I learn more.
 
-A Big Thanks to [Colt Steele](https://github.com/Colt) for all the knowledge. 
