@@ -4,10 +4,8 @@ const Campgrounds = require('../models/campgrounds');
 
 const router = express.Router();
 router.get('/profile/:id', (req, res) => {
-    // Find the User in the database and then show his profile and created campgrounds by him.
     User.findById(req.params.id, (err, foundUser) => {
         if (!err) {
-            // eslint-disable-next-line no-underscore-dangle
             Campgrounds.find().where('createdBy.id').equals(foundUser._id)
                 .exec((_err, userCampgrounds) => {
                     if (!_err) {

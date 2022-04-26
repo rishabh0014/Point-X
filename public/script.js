@@ -3,7 +3,6 @@ followButton.on('click', function (e) {
     e.preventDefault();
     const text = followButton.text().toLowerCase();
     if (text === 'follow') {
-        // const profileID = $('form').attr('action').replace('/profile/', '');
         $.ajax({
             type: "POST",
             url: window.location.pathname,
