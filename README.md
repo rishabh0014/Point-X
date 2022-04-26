@@ -18,9 +18,7 @@ run command
 ``` 
 npm install
 ```
-this will install all the necessary packages that you need to run the application. 
-
->I've used [dot.env](https://www.npmjs.com/package/dotenv) to store the environment variable, So you need to create a **.evn** file once you clone or download the repo.
+this will install all the necessary packages that you need to run the application.
 
 
 
